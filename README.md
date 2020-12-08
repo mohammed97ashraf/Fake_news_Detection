@@ -67,7 +67,7 @@ Our finally selected and best performing classifier was Logistic Regression whic
 model.plk is used to deploy the model usinf Flask.
 
 #### Below is the Process Flow of the Model Building:
-![modelbuildingm](https://github.com/mohammed97ashraf/Fake_news_Detection/blob/main/Modelbulding.PNG)
+![modelbuildingm](https://github.com/mohammed97ashraf/Fake_news_Detection/blob/main/Modelbulding11.PNG)
 
 
 ## **ML model Deployment**
