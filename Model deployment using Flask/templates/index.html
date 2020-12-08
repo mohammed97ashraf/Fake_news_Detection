@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fake News Detection</title>
+    </head>
+    <body>
+        <form action="/" method="POST">
+            <textarea name="txt" rows="4" cols="50">
+            </textarea>
+            <input type="submit" name="submit">
+        </form>
+        <br/> 
+        <div>
+            <h3>Enterd Text is: </h3>
+            {{ request.form['txt'] }}
+        </div>
+        <div>
+            <h3> The Ml Model Found That is a:</h3>
+        <p>{% if result == 0 %}
+            <p style="color: red;">Fake News</p>
+           {% else  %}
+            <p><p style="color:seagreen;">True News</p></p>
+           {% endif  %}
+        </p> 
+        </div>    
+    </body>
+
+</html>
