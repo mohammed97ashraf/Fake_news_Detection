@@ -73,7 +73,10 @@ model.plk is used to deploy the model usinf Flask.
 ## **ML model Deployment**
 ---
 For Deploying we need to create a sample web interface which will get the text from the user and then send it to the flask server.In the flask server we will use the saved model model.plk to predict the news is real or fake and then return the result to the user through web interface.
-![result1](https://github.com/mohammed97ashraf/Fake_news_Detection/blob/main/1.PNG)![result2](https://github.com/mohammed97ashraf/Fake_news_Detection/blob/main/2.PNG)
+ Example 1
+![result1](https://github.com/mohammed97ashraf/Fake_news_Detection/blob/main/1.PNG)
+ Example 2
+![result2](https://github.com/mohammed97ashraf/Fake_news_Detection/blob/main/2.PNG)
 
 #### Below is the Process Flow of the Model Deployment:
 ![model deployment](https://github.com/mohammed97ashraf/Fake_news_Detection/blob/main/dep.PNG)
