@@ -22,14 +22,7 @@ The Aims of this projects is to use the Natural Language Processing and Machine 
      * flask 
 3. To install the Packages
 ```Language
-pip3 install -U scikit-learn
-pip3 install numpy
-pip3 install Pandas
-pip3 install matplotlib
-pip3 install seaborn
-pip3 install nltk
-pip3 install flask
-pip3 install joblib
+pip install -r requirments.txt
 ```
 4. Or else use can download anaconda and use its anaconda prompt to run the commands. To install anaconda check this url https://www.anaconda.com/download/. most the Packages are preinstalled in the anaconda environment
 
@@ -95,9 +88,11 @@ $ git clone  https://github.com/mohammed97ashraf/Fake_news_Detection.git
 2.This will copy all the data source file, program files and model into your machine.
 
 3.Then Open the app.py which is insise the 'Model deployment using Flask' folder/directory
+~~~
 ```python
 Model = joblib.load('C:/Users/Ashraf/Desktop/Fake_news_Detection/Model.pkl') #change the link according  to your folder/directory
 ```
+~~~
 4.After you change the folder/directory link run app.py by using IDLE(defult python Editer) or open the command prompt in the same directory and run the folloing code
 ```Language
 $ python app.py
