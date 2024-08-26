@@ -88,11 +88,7 @@ $ git clone  https://github.com/mohammed97ashraf/Fake_news_Detection.git
 2.This will copy all the data source file, program files and model into your machine.
 
 3.Then Open the app.py which is insise the 'Model deployment using Flask' folder/directory
-~~~
-```python
-Model = joblib.load('C:/Users/Ashraf/Desktop/Fake_news_Detection/Model.pkl') #change the link according  to your folder/directory
-```
-~~~
+
 4.After you change the folder/directory link run app.py by using IDLE(defult python Editer) or open the command prompt in the same directory and run the folloing code
 ```Language
 $ python app.py
